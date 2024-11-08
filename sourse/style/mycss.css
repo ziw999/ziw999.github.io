@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+p,
+h3,
+a {
+    color: chocolate;
+    text-decoration: none;
+}
+
+.navbar.navbar-expand-lg {
+    background-color: chocolate;
+}
+
+.navbar-brand img {
+    max-width: 70px;
+}
+
+.text-posts p {
+    margin-top: 2em;
+    box-shadow: 15px 17px 10px 1px #292929;
+}
+
+.btn-primary-red {
+    color: bisque;
+    background-color: darkred;
+}
+
+.pagination {
+    display: flex;
+    position: absolute;
+    top: 44em;
+    left: 40em;
+}
+
+.page-link {
+    color: bisque;
+    background-color: chocolate;
+}
+
+.modal-content {
+    background-color: darkgreen;
+}
+
+
+
+/* .pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #4CAF50;
+    color: white;
+} */

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sourse/style/mycss.css">
+    <title>Посты</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img
+                        src="sourse/image/tree-nature-forest-wilderness-branch-plant-99255-pxhere.com_.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="posts.html">Посты</a>
+                        </li>
+                      
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container-fluid">
+           
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary m-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Авторизоваться
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade modal-dialog modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Авторизация</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="text"  class="form-control" id="staticEmail" placeholder="email">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword">
+                </div>
+              </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Войти</button>
+          <button type="button" class="btn btn-primary">Зарегистрироваться</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+            <div class="row">
+                <div class="col-lg-2 col-md-12">
+
+                </div>
+                <div class="col-lg-8 col-md-12 text-posts mt-4">
+                    <div class="row">
+                        <div class="p  my-4">
+                            <h3><a href="post.html">Заголовок</a></h3>
+                            <p id="eleToRemov" class="card-text text-truncate"><a href="post.html">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque praesentium obcaecati
+                                    adipisci labore reiciendis mollitia, consequatur explicabo sint et ducimus quis doloremque
+                                    saepe similique iure dignissimos ipsum. Sequi quaerat est error esse odio, deserunt sunt
+                                    velit vel tempore expedita! Quis non natus sapiente quo nemo sequi id? Dolorem facilis rerum
+                                    excepturi nostrum esse quae quos fugiat voluptatibus quis porro nam, ratione ea expedita,
+                                    alias quisquam dolores labore iure ipsa temporibus sapiente voluptas laudantium eligendi
+                                    ullam est? Odit in quo est rerum tenetur autem omnis optio, nam voluptatibus, quia error
+                                    laboriosam provident placeat aspernatur. Totam accusantium, suscipit maiores amet commodi
+                                    distinctio.
+                            </a></p>
+                            <div class="btn-text">
+                                <button type="button" class="btn btn-primary">Редактировать</button>
+                                <button type="button" id="removeBt" class="btn btn-primary-red" data-bs-delete="card-text text-truncate">Удалить</button>
+                            </div>
+                        </div>
+                        <div class="p  my-4">
+                            <h3><a href="post.html">Заголовок</a></h3>
+                            <p id="eleToRemove" class="text-truncate"><a href="post.html">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo earum rerum asperiores corporis
+                                    rem expedita atque temporibus similique nulla dicta, omnis architecto incidunt odit, sunt,
+                                    fugit pariatur nobis? Hic iusto exercitationem mollitia! Tempore repellat nisi neque natus,
+                                    numquam ipsam placeat pariatur eum praesentium corporis deleniti maxime id veniam,
+                                    architecto sunt odit ad deserunt tenetur porro nemo itaque amet eius vel libero! Numquam
+                                    iure officia, voluptates officiis pariatur harum unde deleniti magnam ab dolorem quis sed
+                                    explicabo eaque reprehenderit tempora repudiandae et rerum quasi quo? Vel animi, sunt
+                                    tempora, voluptatibus suscipit magni repellat doloribus vitae id soluta illum dolor vero
+                                    corrupti officia. Ipsa animi ratione laboriosam consequuntur aut in rerum quibusdam nam
+                                    exercitationem. Facere dolorum optio consectetur porro sint corporis, possimus dicta quis
+                                    quidem similique nesciunt adipisci ad illum impedit doloribus vitae molestiae dolorem
+                                    veritatis. Quia ex nobis ipsum suscipit, harum exercitationem assumenda perspiciatis, ipsam
+                                    voluptatibus ullam a quasi cupiditate voluptate culpa ea provident sint porro! Veritatis
+                                    illum, quos quas cumque necessitatibus, quis temporibus accusamus quod iste quibusdam
+                                    veniam? Odio quos quidem quisquam aspernatur reprehenderit dolore nesciunt voluptatem velit
+                                    eum molestiae neque, aliquam molestias blanditiis ducimus doloremque dolores excepturi
+                                    explicabo ipsa necessitatibus est. Officia corporis, ad facere consequuntur nostrum cum
+                                    dignissimos.
+                            </a></p>
+                            <div class="btn-text">
+                                <button type="button" class="btn btn-primary">Редактировать</button>
+                                <button type="button" id="removeBtn" class="btn btn-primary-red">Удалить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-12">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="sourse/scripts/myjs.js"></script>
+</body>
+
+</html>
