@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Noto Sans Japanese&display=swap');
+
+body {
+    font-family: Noto Sans Japanese, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: rgb(83, 187, 22);
+   
+}
+
+.navbar a {
+    color:black;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.nav-item>.nav-link>img  {
+    width: 40px;
+    margin-left: 1em;
+}
+
+.nav-item>.nav-link  {
+    margin-left: 2em;
+}
+
+.navbar-nav>.nav-item .nav-link.active {
+    color: rgb(65, 255, 2);
+}
+
+
+
+
+
